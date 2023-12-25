@@ -1,7 +1,7 @@
 # DOTFILES
 These are the dotfiles for my Arch Linux VM, running on a Microsoft Surface Pro 8 using Windows 11's HyperV.
 
-![screenshot of my desktop](./i3.png)
+![screenshot of my desktop](./readme/i3.png)
 
 ## Compositor: X11
 ## Window manager: i3
