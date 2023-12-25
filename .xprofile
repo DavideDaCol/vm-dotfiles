@@ -1,0 +1,10 @@
+#!/bin/sh
+#lines 3-5 are for my laptop's weird resolution
+xrandr --newmode "2880x1920_60.00"  473.25  2880 3112 3424 3968  1920 1923 1933 1989 -hsync +vsync
+xrandr --addmode Virtual-1 2880x1920_60.00
+xrandr -s 2880x1920
+#adds two layouts, alt+shift to switch
+setxkbmap -layout it,us
+setxkbmap -option 'grp:alt_shift_toggle'
+#sets random backgrounds using wal
+wal -i ~/backgrounds/
