@@ -1,0 +1,11 @@
+import = ["/home/davide/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+
+[font.normal]
+family = "Jet Brains Mono Nerd Font"
+
+[scrolling]
+history = 10000
+
+[window]
+dynamic_title = true
+title = "Alacritty"
